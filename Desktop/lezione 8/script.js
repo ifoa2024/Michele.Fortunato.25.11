@@ -244,8 +244,34 @@ window.document.addEventListener('scroll', () => {
 //12--------------
   numero1 = document.getElementById("num1");
   numero2 = document.getElementById("num2");
-
+  btn = document.getElementById("button")
   num1 = numero1.value;
   num2 = numero2.value;
   console.log(num1);
   
+btn.addEventListener("click",()=>{
+  
+    plus = document.getElementById("plus");
+    minus = document.getElementById("minus");
+    by = document.getElementById("by");
+    divided = document.getElementById("divided");
+    operation = document.getElementById("operation")
+      switch (operation) {
+        case "Somma":
+            return num1+num2;
+            break;
+        case "Sottrazione":
+            return num1-num2;
+            break;
+        case "Moltiplicazione":
+            return num1*num2;
+            break;
+        case "Divisione":
+            return num1/num2;
+            break;
+        default:
+            break;
+      }
+      
+    }
+)
