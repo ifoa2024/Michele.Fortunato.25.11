@@ -241,7 +241,7 @@ window.document.addEventListener('scroll', () => {
         navbar.classList.add("green");
   }});
 
-
+//12--------------
   numero1 = document.getElementById("num1");
   numero2 = document.getElementById("num2");
 
